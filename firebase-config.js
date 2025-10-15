@@ -1,4 +1,3 @@
-// Remplace par la configuration de ton projet Firebase
 const firebaseConfig = {
   apiKey: "AIzaSyBHObOo2McUBg5UerkrQxMl7GEwGJnNiBw",
   authDomain: "gregoire-ballandras.firebaseapp.com",
@@ -10,6 +9,5 @@ const firebaseConfig = {
   measurementId: "G-XX39HNRM4H"
 };
 
-// Initialisation Firebase
 firebase.initializeApp(firebaseConfig);
 const db = firebase.database();
