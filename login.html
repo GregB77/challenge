@@ -1,15 +1,16 @@
 <!DOCTYPE html>
 <html>
 <head>
+  <meta charset="utf-8">
   <title>Connexion</title>
-  <script src="https://www.gstatic.com/firebasejs/11.0.1/firebase-app.js"></script>
-  <script src="https://www.gstatic.com/firebasejs/11.0.1/firebase-auth.js"></script>
-  <script src="https://www.gstatic.com/firebasejs/11.0.1/firebase-firestore.js"></script>
+  <!-- Firebase compat scripts -->
+  <script src="https://www.gstatic.com/firebasejs/11.0.1/firebase-app-compat.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/11.0.1/firebase-database-compat.js"></script>
   <script src="firebase-config.js"></script>
 </head>
 <body>
   <h2>Connexion</h2>
-  <input id="userId" placeholder="Entrez votre code identifiant unique" />
+  <input id="userId" placeholder="Entrez votre prénom" />
   <button id="loginBtn">Se connecter</button>
 
   <script src="script-login.js"></script>
